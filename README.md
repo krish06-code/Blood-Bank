@@ -25,14 +25,22 @@ A web-based Blood Bank Management System that helps manage donors, blood invento
 
 ```
 Blood-Bank/
-│── public/
-│── src/
-│── node_modules/
-│── package.json
-│── vite.config.js
-│── project file.sql
-│── README.md
-```
+│
+├── public/
+├── src/
+│
+├── database/              # DB related files
+│   └── schema.sql
+│
+├── docs/                  # Documentation & diagrams
+│   ├── ER-diagram.png
+│   └── project-report.pdf
+│
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── .gitignore
+├── README.md
 
 ---
 
